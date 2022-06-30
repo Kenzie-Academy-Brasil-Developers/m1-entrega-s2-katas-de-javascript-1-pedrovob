@@ -1,94 +1,63 @@
-function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+let a = []
+const n = 20
+for (let i = 1; i <= n; i++) {
+    console.log(i)
+}
+for (let i = 1; i <= n; i++) {
+    if (i % 2 == 0) {
+        console.log(i)
+    }
+}
+for (let i = 1; i <= n; i++) {
+    if (i % 2 != 0) {
+        console.log(i)
+    }
+}
+for (let i = 1; i <= 100; i++) {
+    if (i % 5 == 0) {
+        console.log(i)
+    }
+}
+for (let i = 1; i <= 100; i++) {
+    if (Math.sqrt(i) % 1 == 0) {
+        console.log(i)
+    }
+}
+let i = 0
+let r = 0
+while (i < 20) {
+    r = 20 - i
+    i--
+    console.log(i)
 }
 
-//call function oneThroughTwenty
-
-function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+for (let i = n; i >= 1; i--) {
+    if (i % 2 == 0) {
+        console.log(i)
+    }
+}
+for (let i = n; i >= 1; i--) {
+    if (i % 2 != 0) {
+        console.log(i)
+    }
+}
+for (let i = 100; i >= 5; i--) {
+    if (i % 5 == 0) {
+        console.log(i)
+    }
+}
+for (let i = 100; i >= 1; i--) {
+    if (Math.sqrt(i) % 1 == 0) {
+        console.log(i)
+    }
 }
 
-//call function evensToTwenty
 
-function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
-}
 
-//call function oddsToTwenty
 
-function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
 
-}
 
-//call function multiplesOfFive
 
-function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
-}
 
-//call function squareNumbers
 
-function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
 
-//call function countingBackwards
-
-function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function evenNumbersBackwards
-
-function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function oddNumbersBackwards
-
-function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function multiplesOfFiveBackwards
-
-function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function squareNumbersBackwards
